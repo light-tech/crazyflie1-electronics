@@ -1,4 +1,4 @@
 (sym_lib_table
-  (version 0)
-  (lib (name "Crazyflie-contol-board-rescue")(type "Legacy")(uri "${KIPRJMOD}/Crazyflie contol board-rescue.lib")(options "")(descr ""))
+  (version 7)
+  (lib (name "Crazyflie-contol-board-rescue")(type "KiCad")(uri "${KIPRJMOD}/Crazyflie contol board-rescue.kicad_sym")(options "")(descr ""))
 )
