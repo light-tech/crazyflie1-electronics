@@ -1,0 +1,11470 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "cefa95ee-afe1-4ff9-a3d6-1888dcf5c397")
+	(paper "A4")
+	(title_block
+		(title "Crazyflie control board")
+		(date "3 feb 2013")
+		(rev "F")
+		(company "Bitcraze AB (CC BY-NC-SA)")
+	)
+	(lib_symbols
+		(symbol "Crazyflie-contol-board-rescue:+BATT"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+BATT"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.016) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.524)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Crazyflie-contol-board-rescue:AGND"
+			(power)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "AGND"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AGND_0_1"
+				(polyline
+					(pts
+						(xy -1.016 0) (xy 1.016 0) (xy 0 -1.016) (xy -1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AGND_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "AGND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Crazyflie-contol-board-rescue:BATTERY"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BATTERY"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BATTERY_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 -2.2606)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.7874 1.27) (xy -0.7874 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9906 2.286) (xy 0.9906 -2.2606)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 3.81)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BATTERY_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Crazyflie-contol-board-rescue:BQ24075"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 16.51 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "BQ24075"
+				(at -6.35 -16.51 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BQ24075_0_1"
+				(rectangle
+					(start -12.7 15.24)
+					(end 12.7 -15.24)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BQ24075_1_1"
+				(pin input line
+					(at -20.32 -2.54 0)
+					(length 7.62)
+					(name "TS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 20.32 12.7 180)
+					(length 7.62)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 10.16 180)
+					(length 7.62)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 7.62 0)
+					(length 7.62)
+					(name "ILIM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 12.7 0)
+					(length 7.62)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 5.08 0)
+					(length 7.62)
+					(name "TMR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -12.7 180)
+					(length 7.62)
+					(name "SYSOFF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 2.54 0)
+					(length 7.62)
+					(name "ISET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -10.16 0)
+					(length 7.62)
+					(name "TPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -5.08 0)
+					(length 7.62)
+					(name "BAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 -7.62 0)
+					(length 7.62)
+					(name "BAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -10.16 180)
+					(length 7.62)
+					(name "/CE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 5.08 180)
+					(length 7.62)
+					(name "EN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 2.54 180)
+					(length 7.62)
+					(name "EN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -2.54 180)
+					(length 7.62)
+					(name "/PGOOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 -12.7 0)
+					(length 7.62)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -5.08 180)
+					(length 7.62)
+					(name "/CHG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Crazyflie-contol-board-rescue:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SM* C? C1-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -0.762) (xy 2.54 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy 2.54 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Crazyflie-contol-board-rescue:CONN_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 2.032 0 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CONN_1"
+				(at 0 1.397 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONN_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.7874)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CONN_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Crazyflie-contol-board-rescue:CONN_2"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "CONN_2"
+				(at 1.27 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONN_2_0_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CONN_2_1_1"
+				(pin passive inverted
+					(at -8.89 2.54 0)
+					(length 6.35)
+					(name "P1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -8.89 -2.54 0)
+					(length 6.35)
+					(name "PM"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Crazyflie-contol-board-rescue:DGND"
+			(power)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "DGND"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DGND_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DGND_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "DGND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Crazyflie-contol-board-rescue:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Crazyflie-contol-board-rescue:LED"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED-3MM LED-5MM LED-10MM LED-0603 LED-0805 LED-1206 LEDV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 -1.016) (xy 2.794 -2.032) (xy 2.667 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -0.635) (xy 3.175 -1.651) (xy 3.048 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Crazyflie-contol-board-rescue:MAX16054"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 8.89 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "MAX16054"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT236"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MAX16054_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MAX16054_1_1"
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 7.62)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -5.08 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name "CLR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 2.54 180)
+					(length 7.62)
+					(name "/OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 5.08 180)
+					(length 7.62)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Crazyflie-contol-board-rescue:MICRO-B-USB"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at -1.27 11.43 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "MICRO-B-USB"
+				(at -3.81 0 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MICRO-B-USB_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 7.62) (xy 0 10.16) (xy -2.54 10.16) (xy -2.54 -10.16) (xy 0 -10.16) (xy 2.54 -7.62)
+						(xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MICRO-B-USB_1_1"
+				(pin power_out line
+					(at 10.16 5.08 180)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 7.62)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 7.62)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 7.62)
+					(name "ID"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -5.08 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Crazyflie-contol-board-rescue:MOSFET_N"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 0.254 4.318 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "MOSFET_N"
+				(at 0.254 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MOSFET_N_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.762) (xy 1.27 -0.762) (xy 0 0) (xy 1.27 0.762) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MOSFET_N_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "G"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Crazyflie-contol-board-rescue:NUF2221"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "NUF2221"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NUF2221_0_1"
+				(rectangle
+					(start -6.35 5.08)
+					(end 6.35 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -2.54) (xy 6.35 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NUF2221_1_1"
+				(pin input line
+					(at 13.97 2.54 180)
+					(length 7.62)
+					(name "D1I"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -5.08 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 0 180)
+					(length 7.62)
+					(name "D2I"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 0 0)
+					(length 7.62)
+					(name "D2C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -5.08 0)
+					(length 7.62)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 2.54 0)
+					(length 7.62)
+					(name "D1C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Crazyflie-contol-board-rescue:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 2.413 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 4.572 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.905 2.54) (xy 0 3.81) (xy 1.905 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Crazyflie-contol-board-rescue:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R? SM0603 SM0805 R?-* SM1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 3.81)
+					(end 1.016 -3.81)
+					(stroke
+						(width 0.3048)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Crazyflie-contol-board-rescue:SW_PUSH"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 3.81 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_PUSH"
+				(at 0 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_PUSH_0_1"
+				(rectangle
+					(start -4.318 1.27)
+					(end 4.318 1.524)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -0.762 2.286) (xy 0.762 2.286) (xy 1.016 1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Crazyflie-contol-board-rescue:TPS79301"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 8.89 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TPS79301"
+				(at -2.54 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS79301_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TPS79301_1_1"
+				(pin power_in line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -2.54 180)
+					(length 7.62)
+					(name "NR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 0 180)
+					(length 7.62)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 2.54 180)
+					(length 7.62)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Crazyflie-contol-board-rescue:VCC"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "VCC"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.762) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.27)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Crazyflie-contol-board-rescue:VCCA"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCCA"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCCA_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "VCCA"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+			)
+			(symbol "VCCA_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.762) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.27)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Crazyflie-contol-board-rescue:VCOM"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCOM"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCOM_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "VCOM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "VCOM_0_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.032)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 252.73 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02116312-1774-487f-a146-2fb672a31ed2")
+	)
+	(junction
+		(at 69.85 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "045e21c9-693e-4631-a4dc-d1526537b093")
+	)
+	(junction
+		(at 264.16 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "049bfc60-2ac7-4bd4-afc7-9d97eab13c1d")
+	)
+	(junction
+		(at 219.71 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06c4b0e6-991e-467d-ab9c-91141541892d")
+	)
+	(junction
+		(at 243.84 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fc3fc69-385c-4bea-b859-5549002ed222")
+	)
+	(junction
+		(at 243.84 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fca19df-945d-488b-b4e2-d55f04bae8d3")
+	)
+	(junction
+		(at 161.29 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1759b462-8629-4ccc-ac3c-855b22a98af5")
+	)
+	(junction
+		(at 121.92 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1df002cb-ca2e-4ba7-9847-1607d2f832ad")
+	)
+	(junction
+		(at 111.76 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ffe0393-0fab-4f95-b8d0-6f7f11acb7d9")
+	)
+	(junction
+		(at 58.42 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26b2efcc-cca3-4b29-9232-88f5a273c67f")
+	)
+	(junction
+		(at 233.68 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a72bb31-0e1b-4885-8439-11fe1c249eb0")
+	)
+	(junction
+		(at 39.37 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d97913d-865c-49ce-8dc0-83490306f0c1")
+	)
+	(junction
+		(at 64.77 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "348e0ae4-e489-4498-9578-072112cb6bd3")
+	)
+	(junction
+		(at 161.29 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ed3ccbf-b815-44f3-9f45-a547161e4346")
+	)
+	(junction
+		(at 127 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40b888a9-ab2d-4a9f-8d13-c193f3913ec2")
+	)
+	(junction
+		(at 171.45 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41580827-2e85-4e45-942c-bb71d55a839c")
+	)
+	(junction
+		(at 166.37 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "473452cb-c65b-4429-93c2-2a9d2d41434b")
+	)
+	(junction
+		(at 130.81 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47c6f7db-60e5-4400-a04e-26abf5e32f97")
+	)
+	(junction
+		(at 219.71 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "481028e5-3a6a-4a00-bce7-8030764ccf21")
+	)
+	(junction
+		(at 135.89 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ebfa486-b4cf-4204-be67-92c9e14bc5c3")
+	)
+	(junction
+		(at 54.61 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5aba2ab5-0ed5-450e-8884-58bbf24eb76f")
+	)
+	(junction
+		(at 165.1 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6223e045-208f-4d2f-a220-55649527aea3")
+	)
+	(junction
+		(at 219.71 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6659dbe3-200d-462a-8298-e3565084d26d")
+	)
+	(junction
+		(at 130.81 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6788cd9b-9d92-4b26-9b40-69b1ecef8601")
+	)
+	(junction
+		(at 219.71 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "696dea19-0c4e-4f31-893d-439c1154688d")
+	)
+	(junction
+		(at 168.91 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6df03108-6b3a-4a41-901c-6836dc9d76e4")
+	)
+	(junction
+		(at 226.06 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b104f0a-ea2f-40fa-a4bf-027f9b447a91")
+	)
+	(junction
+		(at 226.06 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f59d40f-f658-4abd-a82c-0de342d7e355")
+	)
+	(junction
+		(at 173.99 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8173167c-7195-43a2-b440-78090658c798")
+	)
+	(junction
+		(at 46.99 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "838f5e4e-3348-4eaf-a1c3-1af84a400900")
+	)
+	(junction
+		(at 76.2 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d7e2d10-7b77-447d-9fc3-fe0a6002cdc3")
+	)
+	(junction
+		(at 76.2 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94f2c28e-0d22-477e-941a-bf973632941c")
+	)
+	(junction
+		(at 121.92 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95769895-ccbd-4481-ba30-2d41300f4764")
+	)
+	(junction
+		(at 46.99 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a15e2c7a-5662-49f9-abfc-375e15a21fac")
+	)
+	(junction
+		(at 39.37 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5f716cb-27ff-446b-a65e-f40e247cdc60")
+	)
+	(junction
+		(at 82.55 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abf9e898-9aa9-42df-92c4-9af6fe67cb97")
+	)
+	(junction
+		(at 226.06 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afc666c3-a24e-47a8-91f8-00dc7733dcec")
+	)
+	(junction
+		(at 130.81 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b49b5f8a-5292-478d-bfa9-868d61b2fee4")
+	)
+	(junction
+		(at 219.71 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba9560f8-a6e7-4917-9aaf-4ba8f47d4786")
+	)
+	(junction
+		(at 250.19 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4f3d98e-da1d-4727-8791-84428a3a497a")
+	)
+	(junction
+		(at 85.09 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c54fd2f8-0e51-47e7-9dad-fe3ffbfa767a")
+	)
+	(junction
+		(at 173.99 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cccf9fcb-8f14-438c-8ecc-35e02a68dd3f")
+	)
+	(junction
+		(at 219.71 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd02fc97-5b91-4a58-b8a1-73b221b8983b")
+	)
+	(junction
+		(at 143.51 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cddfbe7b-a7b4-425f-8c86-4c2d9fa9b445")
+	)
+	(junction
+		(at 59.69 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfe737f2-5517-4233-b261-238407d13c46")
+	)
+	(junction
+		(at 264.16 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e576914b-3cf3-41d9-9a95-ee6eebb51cce")
+	)
+	(junction
+		(at 171.45 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb28a780-b6ed-4ea1-a184-3232659efecc")
+	)
+	(junction
+		(at 243.84 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa81f7a0-1358-412f-9137-21b0fa5881fb")
+	)
+	(junction
+		(at 226.06 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff52b45c-9e2e-4226-befd-2a78a20a3528")
+	)
+	(no_connect
+		(at 104.14 162.56)
+		(uuid "ddf71bd8-b4f3-46f9-bf56-f74f7d336c65")
+	)
+	(no_connect
+		(at 36.83 88.9)
+		(uuid "f0fc8887-4c85-4848-9bdc-47946dd670b6")
+	)
+	(wire
+		(pts
+			(xy 219.71 85.09) (xy 219.71 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "002acdd4-2224-4353-b96b-de8e638ce07e")
+	)
+	(wire
+		(pts
+			(xy 161.29 134.62) (xy 161.29 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e877cf-2e2c-4958-903a-7bb7900a98d8")
+	)
+	(wire
+		(pts
+			(xy 243.84 83.82) (xy 243.84 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f0d013-70c3-49c7-8b48-027e0b2b7914")
+	)
+	(wire
+		(pts
+			(xy 128.27 104.14) (xy 151.13 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03116aeb-c469-4677-8219-d9f8614037c6")
+	)
+	(wire
+		(pts
+			(xy 111.76 154.94) (xy 111.76 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "043df3c4-051a-47e7-99a3-ac0c47034977")
+	)
+	(wire
+		(pts
+			(xy 113.03 71.12) (xy 113.03 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046e603e-984c-42e8-b594-03b73d5dfc0e")
+	)
+	(wire
+		(pts
+			(xy 36.83 86.36) (xy 44.45 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "060d957c-c6ec-4a7b-ae5e-80e742ff8219")
+	)
+	(wire
+		(pts
+			(xy 92.71 44.45) (xy 92.71 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079360df-cd06-4c1b-a478-6db8ad29a13a")
+	)
+	(wire
+		(pts
+			(xy 233.68 68.58) (xy 219.71 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08662c3b-de79-4ff8-86f4-bd74323290cf")
+	)
+	(wire
+		(pts
+			(xy 128.27 99.06) (xy 135.89 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08bb17b1-5ec7-47ca-b7b6-db38845f8f31")
+	)
+	(wire
+		(pts
+			(xy 177.8 48.26) (xy 171.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0953c9d7-62f6-4499-9d5f-879b03ec2651")
+	)
+	(wire
+		(pts
+			(xy 121.92 58.42) (xy 121.92 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c3ab153-bc0c-48e3-b66f-210fe8ef5783")
+	)
+	(wire
+		(pts
+			(xy 243.84 99.06) (xy 243.84 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4b7c8e-6344-4ce2-9f4f-fa9751df8ef2")
+	)
+	(wire
+		(pts
+			(xy 39.37 105.41) (xy 35.56 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c57b446-f444-4abf-9be1-d04238569009")
+	)
+	(wire
+		(pts
+			(xy 44.45 86.36) (xy 44.45 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e06103f-824e-41b3-8ed1-ec16b1debc56")
+	)
+	(wire
+		(pts
+			(xy 171.45 53.34) (xy 177.8 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e06f1cf-35d3-4607-9d89-25b253f8955a")
+	)
+	(wire
+		(pts
+			(xy 171.45 101.6) (xy 177.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136c06bf-abf4-4bf2-be67-a2bd80da189f")
+	)
+	(wire
+		(pts
+			(xy 165.1 83.82) (xy 165.1 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17024147-e1bf-4c0d-934a-faf30dd1500a")
+	)
+	(wire
+		(pts
+			(xy 200.66 64.77) (xy 200.66 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e612f0-5209-400d-b5e8-5661a2d5757e")
+	)
+	(wire
+		(pts
+			(xy 226.06 50.8) (xy 219.71 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19aa844f-314b-425f-a227-11caea4784bf")
+	)
+	(wire
+		(pts
+			(xy 184.15 111.76) (xy 184.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dcadec1-d4fe-4e49-88a1-8f46edebe3ba")
+	)
+	(wire
+		(pts
+			(xy 208.28 101.6) (xy 210.82 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de826ec-2a8a-4c15-9b6c-b046085af45e")
+	)
+	(wire
+		(pts
+			(xy 250.19 116.84) (xy 219.71 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df8db03-a6fd-4973-a72a-74db3d6fa2e8")
+	)
+	(wire
+		(pts
+			(xy 143.51 166.37) (xy 143.51 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e293012-5d0d-47e1-807b-381b21122d34")
+	)
+	(wire
+		(pts
+			(xy 171.45 48.26) (xy 166.37 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e6da117-526a-4ba4-869f-50dd261c7cde")
+	)
+	(wire
+		(pts
+			(xy 62.23 36.83) (xy 44.45 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e7a3830-c106-4cd8-9a49-9b07bed21eb3")
+	)
+	(wire
+		(pts
+			(xy 113.03 58.42) (xy 113.03 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0d495e-c61d-45ed-bda0-9f0c856300d8")
+	)
+	(wire
+		(pts
+			(xy 165.1 111.76) (xy 165.1 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f178003-bd14-46d5-8286-52d2b90f5961")
+	)
+	(wire
+		(pts
+			(xy 39.37 119.38) (xy 39.37 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "208eb8ba-a542-4c45-85ea-6ad7e4529d7b")
+	)
+	(wire
+		(pts
+			(xy 161.29 181.61) (xy 161.29 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "209c5cd6-995c-41a8-97c3-d5c4dbce39f1")
+	)
+	(wire
+		(pts
+			(xy 119.38 137.16) (xy 111.76 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e94c82-29da-4d17-9aa8-2f7c733b3088")
+	)
+	(wire
+		(pts
+			(xy 233.68 35.56) (xy 241.3 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258b6cf3-ea24-46a5-9c33-d034018d62af")
+	)
+	(wire
+		(pts
+			(xy 76.2 116.84) (xy 69.85 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2749f33f-cd88-43ba-84ea-102a59758b21")
+	)
+	(wire
+		(pts
+			(xy 173.99 50.8) (xy 173.99 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2762d3b8-6c18-49ca-a068-6fd6182d029c")
+	)
+	(wire
+		(pts
+			(xy 252.73 83.82) (xy 252.73 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296b959f-7d5f-4f8a-9a67-690f4d055d43")
+	)
+	(wire
+		(pts
+			(xy 127 157.48) (xy 127 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298d712a-0ba7-4310-956f-44422e419159")
+	)
+	(wire
+		(pts
+			(xy 171.45 96.52) (xy 171.45 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29cfbbe8-730b-4a8e-9975-d258cb98edbb")
+	)
+	(wire
+		(pts
+			(xy 54.61 86.36) (xy 87.63 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a950f87-b006-4158-ba51-a824ac7800fa")
+	)
+	(wire
+		(pts
+			(xy 59.69 44.45) (xy 62.23 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae52517-21e2-4c7d-8ff7-86c677be6256")
+	)
+	(wire
+		(pts
+			(xy 127 154.94) (xy 127 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bbdf350-9f4e-4afa-97b7-96b9d0fb0157")
+	)
+	(wire
+		(pts
+			(xy 121.92 73.66) (xy 121.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cada934-02f2-4d21-9981-18d1dd43201e")
+	)
+	(wire
+		(pts
+			(xy 69.85 116.84) (xy 64.77 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e552285-b1e2-4680-827b-774743d0db9e")
+	)
+	(wire
+		(pts
+			(xy 39.37 105.41) (xy 39.37 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f61049f-ef0c-4684-ba91-18f4e5645dc4")
+	)
+	(wire
+		(pts
+			(xy 186.69 111.76) (xy 184.15 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fadbb66-85d0-4ff0-ab85-8caabb26d285")
+	)
+	(wire
+		(pts
+			(xy 135.89 88.9) (xy 128.27 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a06a2e-36bd-4e59-96c5-717420b04478")
+	)
+	(wire
+		(pts
+			(xy 130.81 48.26) (xy 130.81 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32430b7a-2f96-4b0c-8825-8d880e09fc71")
+	)
+	(wire
+		(pts
+			(xy 104.14 172.72) (xy 116.84 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32eafa9b-6432-4f90-a4fc-d85f5037b72d")
+	)
+	(wire
+		(pts
+			(xy 265.43 144.78) (xy 265.43 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "336e2686-914b-4f3f-94cd-1b7d846064f8")
+	)
+	(wire
+		(pts
+			(xy 71.12 162.56) (xy 71.12 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33f379ce-0379-4ba1-b870-8893702e3218")
+	)
+	(wire
+		(pts
+			(xy 128.27 96.52) (xy 158.75 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36492321-7db2-4589-978a-ce4d88225717")
+	)
+	(wire
+		(pts
+			(xy 82.55 99.06) (xy 87.63 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376a86bd-77c7-4566-87d8-86768338be1a")
+	)
+	(wire
+		(pts
+			(xy 87.63 81.28) (xy 46.99 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3779b005-1fec-4044-a5fd-501708e23260")
+	)
+	(wire
+		(pts
+			(xy 226.06 156.21) (xy 223.52 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37de835b-8947-4a8d-ac7a-60463211c410")
+	)
+	(wire
+		(pts
+			(xy 73.66 167.64) (xy 58.42 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "380ff525-57e1-4284-97bb-189b9912971a")
+	)
+	(wire
+		(pts
+			(xy 127 154.94) (xy 111.76 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384459f5-36a8-45b1-ab8e-83746e03443f")
+	)
+	(wire
+		(pts
+			(xy 111.76 137.16) (xy 96.52 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "389de021-2a55-4243-a567-b8aeb4b942ac")
+	)
+	(wire
+		(pts
+			(xy 243.84 124.46) (xy 243.84 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf5dc90-e175-4f9c-99af-cb63ffed9600")
+	)
+	(wire
+		(pts
+			(xy 219.71 99.06) (xy 219.71 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e2a423c-a92f-4ff9-b909-7064c87c2750")
+	)
+	(wire
+		(pts
+			(xy 64.77 116.84) (xy 64.77 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41911d2e-36b8-4694-85fa-2f0ecc2a0a5e")
+	)
+	(wire
+		(pts
+			(xy 219.71 116.84) (xy 210.82 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "422b5036-9198-4e4f-baac-389d0af60d0b")
+	)
+	(wire
+		(pts
+			(xy 243.84 83.82) (xy 226.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e3893e-59b1-47fc-bb38-336ab54c8cbb")
+	)
+	(wire
+		(pts
+			(xy 226.06 35.56) (xy 226.06 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45cd2b2f-e84a-40a3-8e62-34c01fe29b62")
+	)
+	(wire
+		(pts
+			(xy 59.69 116.84) (xy 54.61 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46d3ac5d-e398-443b-89e6-e87307616df6")
+	)
+	(wire
+		(pts
+			(xy 208.28 53.34) (xy 210.82 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4857ab56-0a07-4604-a851-38c1f31ef359")
+	)
+	(wire
+		(pts
+			(xy 121.92 71.12) (xy 113.03 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8acc9a-4582-47ee-83e4-ed840999b753")
+	)
+	(wire
+		(pts
+			(xy 44.45 160.02) (xy 44.45 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8bf143-9de0-4211-a62c-b36b7217bb5e")
+	)
+	(wire
+		(pts
+			(xy 158.75 124.46) (xy 243.84 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad75829-7a18-41c2-ac7a-79804c72deda")
+	)
+	(wire
+		(pts
+			(xy 161.29 181.61) (xy 143.51 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d4cd878-028b-49a5-81d6-d794876f68b1")
+	)
+	(wire
+		(pts
+			(xy 82.55 101.6) (xy 82.55 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d93f40f-11da-4c04-9ebc-9e662b913468")
+	)
+	(wire
+		(pts
+			(xy 54.61 96.52) (xy 54.61 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dadfb1f-485a-4ff8-a29c-792c7393a82c")
+	)
+	(wire
+		(pts
+			(xy 39.37 116.84) (xy 39.37 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6f681c-0b95-46bb-90d7-d75ffd359c17")
+	)
+	(wire
+		(pts
+			(xy 73.66 162.56) (xy 71.12 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e5ab0c-8208-437c-9ada-473c3521665f")
+	)
+	(wire
+		(pts
+			(xy 219.71 71.12) (xy 219.71 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5383db0d-3418-402c-9110-0b91b9f75ab6")
+	)
+	(wire
+		(pts
+			(xy 226.06 48.26) (xy 226.06 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5553b638-51b1-4a64-a0f6-85e095efc806")
+	)
+	(wire
+		(pts
+			(xy 135.89 132.08) (xy 135.89 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5650945f-ce8f-4bbc-a353-9fad2f3aa355")
+	)
+	(wire
+		(pts
+			(xy 168.91 181.61) (xy 161.29 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579922aa-b389-4a07-9145-077ef3f97a42")
+	)
+	(wire
+		(pts
+			(xy 201.93 111.76) (xy 199.39 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2e41a1-4d4e-476a-958c-3e56c7e8832f")
+	)
+	(wire
+		(pts
+			(xy 252.73 105.41) (xy 252.73 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b59bde4-f6d0-4aba-85f4-c3399d1b0357")
+	)
+	(wire
+		(pts
+			(xy 130.81 83.82) (xy 165.1 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b708b02-bb8b-4924-995c-113eb89be847")
+	)
+	(wire
+		(pts
+			(xy 265.43 163.83) (xy 265.43 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7ed2aa-1971-4874-95dc-c214bfe7844f")
+	)
+	(wire
+		(pts
+			(xy 177.8 96.52) (xy 171.45 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c351474-7583-41ea-b4e2-f9e3d5d1bc71")
+	)
+	(wire
+		(pts
+			(xy 76.2 104.14) (xy 76.2 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5711fd-ed79-404a-a37e-a58ebb301bd2")
+	)
+	(wire
+		(pts
+			(xy 46.99 114.3) (xy 46.99 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db32856-0372-48f3-864d-63a460274c0f")
+	)
+	(wire
+		(pts
+			(xy 59.69 88.9) (xy 59.69 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e1c4d33-ed0f-4cde-ab7d-c7bbcc58b45b")
+	)
+	(wire
+		(pts
+			(xy 219.71 101.6) (xy 219.71 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e4e0183-210e-45f4-bf71-ea2caadaa027")
+	)
+	(wire
+		(pts
+			(xy 264.16 113.03) (xy 270.51 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6019dcbe-a7d0-4d93-bc2b-f68c541e93aa")
+	)
+	(wire
+		(pts
+			(xy 201.93 114.3) (xy 201.93 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d5b5ab-262b-4953-9848-d888f6797ac0")
+	)
+	(wire
+		(pts
+			(xy 226.06 99.06) (xy 219.71 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6145531f-51f8-4638-ac9c-8b910943c549")
+	)
+	(wire
+		(pts
+			(xy 264.16 115.57) (xy 264.16 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "615b9517-7519-4f69-b63b-89ef549dd3d6")
+	)
+	(wire
+		(pts
+			(xy 87.63 96.52) (xy 69.85 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ee79d4-82c0-47f3-82f8-819fc2880925")
+	)
+	(wire
+		(pts
+			(xy 241.3 99.06) (xy 243.84 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "652924b2-95d2-4671-82f1-9c04db975697")
+	)
+	(wire
+		(pts
+			(xy 143.51 156.21) (xy 143.51 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f0782c-e12f-46f2-8ce9-35b8b81873c4")
+	)
+	(wire
+		(pts
+			(xy 58.42 170.18) (xy 58.42 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e70ba4-2c36-4e9d-98a5-e0d3e7e1f17c")
+	)
+	(wire
+		(pts
+			(xy 210.82 35.56) (xy 219.71 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b1fd9e6-2591-4f1a-ad77-b53d9c6372a9")
+	)
+	(wire
+		(pts
+			(xy 177.8 99.06) (xy 173.99 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c338de6-81bb-4cb4-84a3-9f47b88dfc2f")
+	)
+	(wire
+		(pts
+			(xy 153.67 156.21) (xy 143.51 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1eae66-62c6-46fe-aeed-014d3a74f661")
+	)
+	(wire
+		(pts
+			(xy 233.68 35.56) (xy 233.68 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d27a574-3c9c-4cee-b6a5-af107e0ca31a")
+	)
+	(wire
+		(pts
+			(xy 208.28 48.26) (xy 210.82 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e079c5e-8002-4762-b9e0-7b3352d33575")
+	)
+	(wire
+		(pts
+			(xy 226.06 96.52) (xy 226.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "722b909a-6055-4fff-a6bb-1cf843aec3c2")
+	)
+	(wire
+		(pts
+			(xy 264.16 83.82) (xy 264.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73207b0d-fc78-42be-9d73-f2002bea4797")
+	)
+	(polyline
+		(pts
+			(xy 280.67 173.99) (xy 250.19 173.99)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "73c22b54-1faf-47e6-b522-f4f3a5f76433")
+	)
+	(wire
+		(pts
+			(xy 173.99 111.76) (xy 173.99 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7621a3e3-c34a-4e1a-bbc7-9223d8a8a119")
+	)
+	(wire
+		(pts
+			(xy 76.2 101.6) (xy 76.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7735750e-f4bd-41f7-8f15-ad5612507372")
+	)
+	(wire
+		(pts
+			(xy 270.51 113.03) (xy 270.51 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "784dbe7b-010c-4eb3-9274-de797d352f97")
+	)
+	(wire
+		(pts
+			(xy 128.27 83.82) (xy 130.81 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "798300cc-8d34-4d1a-b38a-2658405b5208")
+	)
+	(wire
+		(pts
+			(xy 210.82 53.34) (xy 210.82 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a09a1a-49a3-4b59-8dfa-15b6f408ccbb")
+	)
+	(wire
+		(pts
+			(xy 177.8 50.8) (xy 173.99 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aae5384-cd72-466e-9756-c3725310296d")
+	)
+	(wire
+		(pts
+			(xy 67.31 172.72) (xy 73.66 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b224861-f378-4f8f-aa29-006bafbe13a4")
+	)
+	(wire
+		(pts
+			(xy 270.51 99.06) (xy 270.51 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b57d2eb-1dbb-4c4a-9fda-78087e332274")
+	)
+	(polyline
+		(pts
+			(xy 280.67 138.43) (xy 250.19 138.43)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "7c6aac66-223e-491a-93ac-15f7ddaa817b")
+	)
+	(wire
+		(pts
+			(xy 130.81 45.72) (xy 130.81 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d38b3fb-d912-460e-b84c-d7608db87507")
+	)
+	(wire
+		(pts
+			(xy 226.06 158.75) (xy 226.06 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dbf85b4-8330-439b-a6d3-804b68ef9a7d")
+	)
+	(wire
+		(pts
+			(xy 166.37 60.96) (xy 166.37 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd6a800-bb29-4910-b136-f382bcbabf9b")
+	)
+	(wire
+		(pts
+			(xy 161.29 184.15) (xy 161.29 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f0d970e-e270-4793-a07b-e261613b3f7e")
+	)
+	(wire
+		(pts
+			(xy 252.73 116.84) (xy 250.19 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcab3ce-183e-4288-b89f-be3a639919ec")
+	)
+	(wire
+		(pts
+			(xy 210.82 48.26) (xy 210.82 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe8218c-c769-4338-8b2b-5480ffdd1443")
+	)
+	(wire
+		(pts
+			(xy 104.14 165.1) (xy 135.89 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80bd834e-8d2c-4192-8f10-492b9a3d5b74")
+	)
+	(wire
+		(pts
+			(xy 161.29 166.37) (xy 161.29 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "850e268c-7660-4e87-b983-3d664cedbd5e")
+	)
+	(wire
+		(pts
+			(xy 177.8 163.83) (xy 168.91 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "854f8790-8d65-4322-aa83-6c4b5ea93e2f")
+	)
+	(wire
+		(pts
+			(xy 185.42 62.23) (xy 182.88 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "856ec4e3-a9ba-43be-aaa0-4a88f735b62d")
+	)
+	(wire
+		(pts
+			(xy 111.76 137.16) (xy 111.76 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c2ff26-8a7e-4bfa-96c4-0bdffad63da7")
+	)
+	(wire
+		(pts
+			(xy 166.37 63.5) (xy 173.99 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873be11b-9ddd-4886-9854-dddd8999adff")
+	)
+	(wire
+		(pts
+			(xy 113.03 48.26) (xy 121.92 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9af2a4-6205-4b33-95ce-6c2985f4c820")
+	)
+	(wire
+		(pts
+			(xy 210.82 101.6) (xy 210.82 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ab99365-8943-4eae-b770-cc97072651e4")
+	)
+	(wire
+		(pts
+			(xy 243.84 124.46) (xy 264.16 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bbc5f5e-1883-496d-a1e1-e72ae72e7ca3")
+	)
+	(wire
+		(pts
+			(xy 53.34 160.02) (xy 44.45 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c69fed0-cfb5-4194-9557-258b57a8212b")
+	)
+	(wire
+		(pts
+			(xy 161.29 147.32) (xy 161.29 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd21be4-6098-471d-bb79-2045e9628c8b")
+	)
+	(wire
+		(pts
+			(xy 121.92 48.26) (xy 130.81 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eb6f3f7-fdff-4ff1-874f-ab5dd515352e")
+	)
+	(wire
+		(pts
+			(xy 135.89 129.54) (xy 135.89 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ecb8569-6532-404a-850b-b8144bce5800")
+	)
+	(wire
+		(pts
+			(xy 130.81 48.26) (xy 151.13 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "914390be-1bab-4ec0-b957-7f4b462b62a9")
+	)
+	(wire
+		(pts
+			(xy 135.89 165.1) (xy 135.89 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91dae0e0-e28a-4d38-bd14-251d9dbcf32e")
+	)
+	(wire
+		(pts
+			(xy 264.16 113.03) (xy 264.16 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981328e8-bacb-4b06-929c-19db33508073")
+	)
+	(wire
+		(pts
+			(xy 241.3 35.56) (xy 241.3 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7146f0-46ad-4d83-8059-514f05cdfa48")
+	)
+	(wire
+		(pts
+			(xy 85.09 116.84) (xy 76.2 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b1c415a-dbba-492c-acf3-08d94a55aaec")
+	)
+	(wire
+		(pts
+			(xy 171.45 48.26) (xy 171.45 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c0acd2f-5244-4ef9-a4de-ad2cf87d0d26")
+	)
+	(wire
+		(pts
+			(xy 59.69 109.22) (xy 59.69 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c9bff75-1fb2-4283-ab19-a4cf92d662ae")
+	)
+	(wire
+		(pts
+			(xy 210.82 83.82) (xy 210.82 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9feaf4b9-203f-4c53-b515-09e50cf10277")
+	)
+	(wire
+		(pts
+			(xy 46.99 81.28) (xy 36.83 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ce2d7b-a557-4b8d-9051-0c4f98e97a25")
+	)
+	(wire
+		(pts
+			(xy 35.56 100.33) (xy 46.99 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2145af4-97b9-4044-8814-e4289366b688")
+	)
+	(wire
+		(pts
+			(xy 219.71 83.82) (xy 210.82 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a261e339-e40b-4096-8410-eb19e2eab27f")
+	)
+	(wire
+		(pts
+			(xy 270.51 86.36) (xy 270.51 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a278bed3-f0e8-4f78-9974-3dbdf24b83f6")
+	)
+	(wire
+		(pts
+			(xy 41.91 83.82) (xy 36.83 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38e861b-be07-4560-82a9-67f438666c4c")
+	)
+	(wire
+		(pts
+			(xy 135.89 91.44) (xy 128.27 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d5b20f-5874-4c82-985e-76ae7f93fff2")
+	)
+	(wire
+		(pts
+			(xy 252.73 83.82) (xy 243.84 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6795598-a670-43a6-bdab-e9c96c9121a2")
+	)
+	(wire
+		(pts
+			(xy 228.6 99.06) (xy 226.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a74e2ff8-17a0-4753-b21b-27fa42beaee6")
+	)
+	(wire
+		(pts
+			(xy 205.74 156.21) (xy 208.28 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a75eb135-1a75-459d-b4a6-525538bee04a")
+	)
+	(wire
+		(pts
+			(xy 219.71 68.58) (xy 219.71 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d62bed-2862-45e0-83e4-5fb4a66c1c90")
+	)
+	(wire
+		(pts
+			(xy 171.45 45.72) (xy 171.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac7866e4-1719-4055-a5ee-47423e6ba92d")
+	)
+	(wire
+		(pts
+			(xy 58.42 182.88) (xy 58.42 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acbf7676-9b95-439b-9105-ad8baa438b46")
+	)
+	(wire
+		(pts
+			(xy 168.91 163.83) (xy 161.29 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad38f89e-47aa-4036-92e3-fcfc66754310")
+	)
+	(wire
+		(pts
+			(xy 71.12 160.02) (xy 68.58 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adcb23d5-7c06-4626-a2b8-e37b63814d0a")
+	)
+	(wire
+		(pts
+			(xy 130.81 81.28) (xy 130.81 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae2415e7-3a1c-419b-853f-4177289f7ecb")
+	)
+	(wire
+		(pts
+			(xy 39.37 91.44) (xy 36.83 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af3cc3a1-1fe6-4a48-94dd-2d331216b4b7")
+	)
+	(polyline
+		(pts
+			(xy 280.67 138.43) (xy 280.67 173.99)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "afadd790-3985-4c40-95a8-28e8691d522b")
+	)
+	(wire
+		(pts
+			(xy 41.91 39.37) (xy 41.91 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c8ac9f-1ce9-40c8-882d-62ccf65ea63b")
+	)
+	(wire
+		(pts
+			(xy 233.68 55.88) (xy 233.68 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3129cf3-1835-4ad3-b58d-fd619923ad74")
+	)
+	(wire
+		(pts
+			(xy 226.06 83.82) (xy 219.71 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3238a11-e2c0-49b3-b0e6-8c1f74ff5179")
+	)
+	(wire
+		(pts
+			(xy 171.45 96.52) (xy 165.1 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b33679c2-dfe3-44e5-9f5d-992a887b246f")
+	)
+	(wire
+		(pts
+			(xy 82.55 101.6) (xy 76.2 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ce6746-dccf-4a19-aa00-3f5060917f68")
+	)
+	(wire
+		(pts
+			(xy 229.87 156.21) (xy 226.06 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5dcb17d-dd39-4dd6-b18b-8daef2ff5183")
+	)
+	(wire
+		(pts
+			(xy 58.42 167.64) (xy 52.07 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8299890-cad8-4bf0-b447-1900912362df")
+	)
+	(wire
+		(pts
+			(xy 168.91 181.61) (xy 168.91 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5f2259-b75e-4cdf-a3dc-76a6feffe683")
+	)
+	(wire
+		(pts
+			(xy 210.82 96.52) (xy 208.28 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb65558d-955d-43d5-a392-cacd1222021d")
+	)
+	(wire
+		(pts
+			(xy 85.09 104.14) (xy 85.09 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbbf2c74-30b9-49a1-bc77-5a2be33bb273")
+	)
+	(wire
+		(pts
+			(xy 257.81 163.83) (xy 257.81 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc72264e-1ae7-44f6-bd35-c4ac607eef61")
+	)
+	(wire
+		(pts
+			(xy 90.17 36.83) (xy 105.41 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd5bdaf5-faeb-4adf-bc75-f995ed083ae9")
+	)
+	(wire
+		(pts
+			(xy 121.92 71.12) (xy 121.92 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9e16ae-7e3c-4067-bbe8-8df59874f9ca")
+	)
+	(wire
+		(pts
+			(xy 135.89 106.68) (xy 128.27 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c21002c1-e65a-4c6a-8eb0-a7ec02b03863")
+	)
+	(wire
+		(pts
+			(xy 264.16 83.82) (xy 252.73 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2154dc4-c9ca-452a-b2cc-30b606b4e895")
+	)
+	(wire
+		(pts
+			(xy 219.71 48.26) (xy 219.71 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3dee71c-4407-40b5-8978-a5906902f9ed")
+	)
+	(wire
+		(pts
+			(xy 219.71 35.56) (xy 226.06 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c88533d0-8779-4d42-9751-d8e584a38008")
+	)
+	(wire
+		(pts
+			(xy 219.71 50.8) (xy 208.28 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca885260-45ff-44e1-92fe-59a73b822472")
+	)
+	(wire
+		(pts
+			(xy 64.77 96.52) (xy 64.77 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8c2966-ebd7-41f5-a0fa-a15a22e46f81")
+	)
+	(wire
+		(pts
+			(xy 87.63 106.68) (xy 85.09 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd2d5d1-aa67-4a4a-93f9-9617c3e625da")
+	)
+	(wire
+		(pts
+			(xy 270.51 83.82) (xy 264.16 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde581a6-007d-4934-80a2-e366ffec9d99")
+	)
+	(wire
+		(pts
+			(xy 64.77 91.44) (xy 87.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cea02c2d-4d71-43e2-bd36-3848dbb5be1a")
+	)
+	(wire
+		(pts
+			(xy 264.16 76.2) (xy 264.16 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cedb0e98-c270-48aa-9c14-e9aaf34cd933")
+	)
+	(wire
+		(pts
+			(xy 166.37 48.26) (xy 163.83 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf3964cf-05a5-4d13-99d7-fe44fbb526c6")
+	)
+	(wire
+		(pts
+			(xy 200.66 62.23) (xy 198.12 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d044438f-d78f-4a82-86b7-113d759ddbe7")
+	)
+	(wire
+		(pts
+			(xy 165.1 96.52) (xy 165.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0e65b4c-31da-4f63-b923-d4ff0e5cf442")
+	)
+	(wire
+		(pts
+			(xy 219.71 99.06) (xy 208.28 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1dbd0f1-3838-4ee8-8823-822b50544984")
+	)
+	(wire
+		(pts
+			(xy 250.19 116.84) (xy 250.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e1edad-b4e7-4c2b-a8f2-42d3a8010059")
+	)
+	(wire
+		(pts
+			(xy 76.2 114.3) (xy 76.2 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d43cb77a-eb5b-4602-a1f7-de3c722f3689")
+	)
+	(wire
+		(pts
+			(xy 87.63 88.9) (xy 59.69 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d512fec5-85cd-45c7-9592-d0039af38e25")
+	)
+	(wire
+		(pts
+			(xy 151.13 104.14) (xy 151.13 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d69e9337-b918-4507-bd85-6f6375e2f339")
+	)
+	(wire
+		(pts
+			(xy 130.81 81.28) (xy 128.27 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82545e3-5e5b-4273-bf67-bcca772b6889")
+	)
+	(wire
+		(pts
+			(xy 226.06 35.56) (xy 233.68 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82be40c-a309-4d17-837d-f4ca5e4b79c9")
+	)
+	(wire
+		(pts
+			(xy 67.31 171.45) (xy 67.31 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88ab0c4-3328-45ea-9e4f-c9e360d0a79c")
+	)
+	(wire
+		(pts
+			(xy 210.82 66.04) (xy 210.82 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d93f4a71-5ff1-4dbc-97b1-8ce26be51798")
+	)
+	(wire
+		(pts
+			(xy 168.91 163.83) (xy 168.91 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97b75a7-3715-463d-a1d9-3068aa77c625")
+	)
+	(wire
+		(pts
+			(xy 46.99 104.14) (xy 46.99 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dab4e49f-3bbc-4ac6-950f-114d61cbba89")
+	)
+	(wire
+		(pts
+			(xy 219.71 114.3) (xy 219.71 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc11e2f8-7084-41b3-8889-cc4f11435473")
+	)
+	(wire
+		(pts
+			(xy 205.74 151.13) (xy 205.74 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfdc0e97-0587-47f9-9061-7f45622b65e9")
+	)
+	(wire
+		(pts
+			(xy 41.91 39.37) (xy 62.23 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d6c2a4-74b9-4a91-a7e5-75ec6fe11e72")
+	)
+	(wire
+		(pts
+			(xy 69.85 116.84) (xy 69.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0da9bf8-bca7-4ae0-8a05-af8fd1070985")
+	)
+	(wire
+		(pts
+			(xy 166.37 48.26) (xy 166.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b9755b-4753-4410-8895-1fb4c01beef8")
+	)
+	(wire
+		(pts
+			(xy 90.17 39.37) (xy 105.41 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e40b8a51-1ff7-43cf-9b20-b93eb3d4b729")
+	)
+	(wire
+		(pts
+			(xy 173.99 99.06) (xy 173.99 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5350f6b-2378-4b38-a31b-f9af2468ebba")
+	)
+	(wire
+		(pts
+			(xy 173.99 111.76) (xy 165.1 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c8819a-c771-4269-b2a2-985ee692b51a")
+	)
+	(wire
+		(pts
+			(xy 116.84 172.72) (xy 116.84 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6348423-2621-4c87-b9f6-7b00602b1d8a")
+	)
+	(wire
+		(pts
+			(xy 210.82 114.3) (xy 210.82 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63baa19-1234-4489-afbc-f84fd243000a")
+	)
+	(wire
+		(pts
+			(xy 46.99 116.84) (xy 39.37 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d2ff70-e5a0-4912-bdbb-6043cb4d878d")
+	)
+	(wire
+		(pts
+			(xy 127 132.08) (xy 127 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70e0054-f50f-47b6-8ad7-1604d13ba73b")
+	)
+	(wire
+		(pts
+			(xy 85.09 106.68) (xy 85.09 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a51a7a-1ac3-4adf-8ad0-cbc5f6b89a7c")
+	)
+	(wire
+		(pts
+			(xy 54.61 120.65) (xy 54.61 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e80784c7-0566-4698-ac2f-7779d062f9c2")
+	)
+	(wire
+		(pts
+			(xy 54.61 116.84) (xy 54.61 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9adbfbe-119a-45b3-980f-1bd930bec981")
+	)
+	(wire
+		(pts
+			(xy 46.99 100.33) (xy 46.99 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb3cda1d-0f98-4f42-bcb6-335a22db1358")
+	)
+	(wire
+		(pts
+			(xy 226.06 83.82) (xy 226.06 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec957120-bb2e-428d-b617-93e2dee1c298")
+	)
+	(wire
+		(pts
+			(xy 127 129.54) (xy 135.89 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc057dc-cdc2-4a83-9121-6c057d6084cd")
+	)
+	(polyline
+		(pts
+			(xy 250.19 173.99) (xy 250.19 138.43)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "ee1ff1ef-4c58-4c5f-bbe5-feb5e8745aa9")
+	)
+	(wire
+		(pts
+			(xy 273.05 163.83) (xy 273.05 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee246b2f-5622-48c6-bf28-c71696e72f42")
+	)
+	(wire
+		(pts
+			(xy 161.29 163.83) (xy 161.29 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee647c56-d85a-4d52-b31a-30f7bca721cf")
+	)
+	(wire
+		(pts
+			(xy 182.88 62.23) (xy 182.88 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee77861b-8da7-472b-b49e-89175a488c9a")
+	)
+	(wire
+		(pts
+			(xy 85.09 104.14) (xy 87.63 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7e02a5-c3da-4f25-8858-2ce98444f8e9")
+	)
+	(wire
+		(pts
+			(xy 219.71 68.58) (xy 210.82 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3d20d9a-e190-4d06-8b00-322ad0fcabcd")
+	)
+	(wire
+		(pts
+			(xy 64.77 116.84) (xy 59.69 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f51c2936-9db7-4ce0-9f10-51366681d9bc")
+	)
+	(wire
+		(pts
+			(xy 87.63 101.6) (xy 82.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5edd7f3-9457-42b5-b599-85d1692d8bab")
+	)
+	(wire
+		(pts
+			(xy 219.71 50.8) (xy 219.71 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f75fa045-762d-4330-9d8c-b56f80fda9c1")
+	)
+	(wire
+		(pts
+			(xy 158.75 96.52) (xy 158.75 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f84c6c90-59b1-4ac4-9f90-e4ef29df8fde")
+	)
+	(wire
+		(pts
+			(xy 90.17 44.45) (xy 92.71 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f93cd7b8-9dc2-4457-8ba9-2436219c4792")
+	)
+	(wire
+		(pts
+			(xy 143.51 181.61) (xy 143.51 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc1cfe7-b96f-4003-864d-2664b6d9b488")
+	)
+	(wire
+		(pts
+			(xy 173.99 63.5) (xy 173.99 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3e8763-2ffc-4641-bed1-d616987ce765")
+	)
+	(wire
+		(pts
+			(xy 264.16 99.06) (xy 264.16 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fefbe0c0-085f-4994-9636-3fd3310929f5")
+	)
+	(text "For KiCad ERC check"
+		(exclude_from_sim no)
+		(at 252.73 138.43 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "0884439e-7b06-4528-a985-f61cb9f1eb5d")
+	)
+	(text "Standby current 3uA@3.7V"
+		(exclude_from_sim no)
+		(at 74.93 181.61 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e288058-37f9-415e-8ffa-4ade3ab99023")
+	)
+	(text "Accumulated standby current is about 10uA. \nFor a full 170mAh battery that would give \n>2 years of standby before depleated. "
+		(exclude_from_sim no)
+		(at 194.31 166.37 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "369ffdcc-59d9-4543-af0a-88e1f1afb4f7")
+	)
+	(text "When USB is connected \ndigital LDO will give 3.3V \notherwise 2.8V"
+		(exclude_from_sim no)
+		(at 252.73 66.04 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f91cd2b-555a-4d89-8a78-1d1ff3f3baf0")
+	)
+	(text "DGND star connection @ LDO GND pin"
+		(exclude_from_sim no)
+		(at 173.99 120.65 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "565fa2b1-a545-4f71-99be-f9b72a608e7d")
+	)
+	(text "Max input current set to 1.3A\nFastcharge current set to 740mA\nSafty timer is set to 80min\nNo battery temp monitoring\nStandby current <7uA"
+		(exclude_from_sim no)
+		(at 92.71 116.84 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "8becb5bf-4cb3-40da-8862-bb4f3d6755e5")
+	)
+	(text "Analod LDO configured to 2.8V"
+		(exclude_from_sim no)
+		(at 224.79 22.86 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "c015cc4a-431a-4023-93ad-bc59c9ea3743")
+	)
+	(text "AGND star connection @ LDO GND pin"
+		(exclude_from_sim no)
+		(at 170.18 72.39 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "d78d07af-6149-4661-b49b-c7e4537fdf6e")
+	)
+	(label "D+"
+		(at 57.15 36.83 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fca5f7e-29c5-419d-b1c3-01c0c50cde0c")
+	)
+	(label "VUSB"
+		(at 96.52 137.16 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac941ac6-d796-428c-875f-adc71b65ca76")
+	)
+	(label "VUSB"
+		(at 80.01 81.28 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5de5a69-bb19-4b20-9a07-368b8efb0dcb")
+	)
+	(label "D-"
+		(at 57.15 39.37 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "c97411ed-5c47-4399-af4b-da1effe1deb2")
+	)
+	(hierarchical_label "USB_CON"
+		(shape input)
+		(at 59.69 44.45 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "161b2c37-5114-4360-95d5-27bff59c2efe")
+	)
+	(hierarchical_label "USBD-"
+		(shape bidirectional)
+		(at 105.41 39.37 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "2b92f477-f028-4e9b-a2ea-260944081ab3")
+	)
+	(hierarchical_label "EN1"
+		(shape input)
+		(at 135.89 91.44 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "494cdd17-e0e7-4635-a606-77f5e8253e2a")
+	)
+	(hierarchical_label "CHG"
+		(shape output)
+		(at 135.89 99.06 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "4c3b764e-17e0-4ce0-84a7-b4df422aef5b")
+	)
+	(hierarchical_label "PGOOD"
+		(shape output)
+		(at 264.16 124.46 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "63945170-9346-4846-94be-480d4274808e")
+	)
+	(hierarchical_label "SYSOFF"
+		(shape input)
+		(at 52.07 167.64 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "643f5082-a32a-4979-8a3d-f6507641f3a7")
+	)
+	(hierarchical_label "EN2"
+		(shape input)
+		(at 135.89 88.9 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "726aa955-8728-4bf3-bc25-900a1afa5c75")
+	)
+	(hierarchical_label "VBAT"
+		(shape output)
+		(at 177.8 163.83 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "b88ce92f-d95e-4d31-958c-e259708fc3dd")
+	)
+	(hierarchical_label "USBD+"
+		(shape bidirectional)
+		(at 105.41 36.83 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "e07a399b-c911-4eae-ba51-8dd9b750648c")
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:MICRO-B-USB")
+		(at 26.67 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7b5de")
+		(property "Reference" "P7"
+			(at 25.4 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MICRO-B-USB"
+			(at 22.86 86.36 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ZX62-B-5PA_11_CFK"
+			(at 26.67 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hirose Connectors"
+			(at 26.67 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "ZX62-B-5PA(11)"
+			(at 26.67 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "282f2409-7ff6-4701-8aab-1a51cebe9ef7")
+		)
+		(pin "4"
+			(uuid "c0c7179d-22de-4c6c-92c8-0653a1fb4e4b")
+		)
+		(pin "3"
+			(uuid "2336accb-6438-4662-b5f8-8cb6b5004e06")
+		)
+		(pin "5"
+			(uuid "24462586-4ccc-4925-af0d-e0ff5de2567f")
+		)
+		(pin "2"
+			(uuid "1a80ab0f-542e-4254-92ac-a9908658a0ca")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "P7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:+BATT")
+		(at 76.2 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7b650")
+		(property "Reference" "#PWR085"
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 76.2 97.79 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b98306a-cc61-4ce0-a916-f7c9667936af")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:NUF2221")
+		(at 76.2 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7c1d9")
+		(property "Reference" "U6"
+			(at 72.39 33.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "NUF2221"
+			(at 76.2 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SOT363"
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OnSemi"
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "NUF2221W1T2G"
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "f0b294e8-2cba-46c1-bad6-62a074b50e3a")
+		)
+		(pin "4"
+			(uuid "198c5232-bfd7-42d5-b751-3425cf44aec3")
+		)
+		(pin "3"
+			(uuid "c64d4106-8b97-4c47-b663-15742a3e48df")
+		)
+		(pin "2"
+			(uuid "721397c4-1244-43da-9bbb-5ea8df5d8bcc")
+		)
+		(pin "6"
+			(uuid "ade158c4-ce40-4718-999b-05c2d6ac4c57")
+		)
+		(pin "1"
+			(uuid "d35117e1-bd1f-41d2-9910-f51dee822f04")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:DGND")
+		(at 92.71 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7c392")
+		(property "Reference" "#PWR084"
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 92.71 50.038 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d35a713f-78b2-4a6e-8a34-af42cb78880d")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:C")
+		(at 166.37 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7d9eb")
+		(property "Reference" "C31"
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 167.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SM0603_Capa"
+			(at 166.37 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0da2238e-fdbc-4c60-99c7-7f3a915ddcdd")
+		)
+		(pin "2"
+			(uuid "f96e3a59-206d-4da0-bb23-6ccf591ff6b7")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:C")
+		(at 165.1 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7d9fd")
+		(property "Reference" "C38"
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 166.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SM0603_Capa"
+			(at 165.1 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6df15099-ebb7-4257-878f-e6b0ce4f8f4d")
+		)
+		(pin "2"
+			(uuid "581732e9-2aad-40e7-8ff8-676d2db12e92")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:C")
+		(at 252.73 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7da05")
+		(property "Reference" "C37"
+			(at 254 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 254 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SM0603_Capa"
+			(at 252.73 100.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90da53fa-bd7f-44ae-bb61-4f5c1ce2d0b4")
+		)
+		(pin "2"
+			(uuid "dd740e12-a8f5-4771-b103-728178733656")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:C")
+		(at 210.82 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7da0d")
+		(property "Reference" "C40"
+			(at 212.09 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 212.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SM0603_Capa"
+			(at 210.82 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General"
+			(at 210.82 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "X7R, +/-10%, 25V"
+			(at 210.82 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fee27d11-19d0-4b95-aa29-a2b43b82589a")
+		)
+		(pin "1"
+			(uuid "e382aa49-37a7-418d-9234-1cba26df87cb")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:C")
+		(at 210.82 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7da15")
+		(property "Reference" "C32"
+			(at 212.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 212.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SM0603_Capa"
+			(at 210.82 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General"
+			(at 210.82 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "X7R, +/-10, 25V"
+			(at 210.82 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d551748-5826-45fd-b99b-a9f1d1ab1d37")
+		)
+		(pin "2"
+			(uuid "9712fb33-721d-487f-9aac-1d2080313663")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:C")
+		(at 233.68 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7da19")
+		(property "Reference" "C30"
+			(at 234.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 234.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SM0603_Capa"
+			(at 233.68 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99df922d-c679-463e-a60a-afc14aa2e0e5")
+		)
+		(pin "2"
+			(uuid "1f737a4e-97b0-4a52-a7f5-722c71d09313")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:R")
+		(at 157.48 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7da2e")
+		(property "Reference" "R17"
+			(at 157.48 50.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10R"
+			(at 157.48 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM0603"
+			(at 157.48 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General"
+			(at 157.48 48.26 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "+/-1%, 0.125W, 50V"
+			(at 157.48 48.26 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3011f8f6-1e65-459f-9f9c-948236769a2c")
+		)
+		(pin "2"
+			(uuid "b53b8692-7047-4580-aea8-b2b6f44eff1c")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:GND")
+		(at 173.99 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7dafc")
+		(property "Reference" "#PWR083"
+			(at 173.99 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 67.818 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f7080c4-70d1-4ec1-9bc4-5070b6dc9fc2")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:GND")
+		(at 173.99 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7db04")
+		(property "Reference" "#PWR082"
+			(at 173.99 114.3 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 116.078 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "793e0cc6-e791-42a4-9e90-62a7dfbbc321")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:GND")
+		(at 121.92 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7db2e")
+		(property "Reference" "#PWR081"
+			(at 121.92 73.66 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 75.438 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f3721fe-09b3-4bf8-a56f-6baa5cf670dc")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:AGND")
+		(at 219.71 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7dbf2")
+		(property "Reference" "#PWR080"
+			(at 219.71 71.12 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 219.71 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c59fdbac-af7b-4b63-ab83-4ae980ba8a00")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:DGND")
+		(at 250.19 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7dc03")
+		(property "Reference" "#PWR079"
+			(at 250.19 118.11 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 250.19 119.888 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5aa3c02-d475-4946-b7fb-7177157a3528")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:GND")
+		(at 182.88 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7dcc3")
+		(property "Reference" "#PWR078"
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 66.548 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbc53789-39ca-44ca-b7d4-72c448b516db")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:AGND")
+		(at 200.66 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7dcca")
+		(property "Reference" "#PWR077"
+			(at 200.66 64.77 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 200.66 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "072f81b4-1a9f-44f5-b65e-ca7f3ca30432")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:GND")
+		(at 184.15 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7dd51")
+		(property "Reference" "#PWR076"
+			(at 184.15 114.3 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 116.078 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07bffab3-df48-4544-9141-6b89c292a845")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:DGND")
+		(at 201.93 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7dd56")
+		(property "Reference" "#PWR075"
+			(at 201.93 114.3 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 201.93 116.078 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93af9d0b-de64-417a-a2d3-4d7dc8120724")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:VCC")
+		(at 264.16 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7ddb8")
+		(property "Reference" "#PWR074"
+			(at 264.16 73.66 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 264.16 73.66 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f205a614-ce88-4a9f-b3bf-4855ea2380e5")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:VCCA")
+		(at 241.3 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7ddcc")
+		(property "Reference" "#PWR073"
+			(at 241.3 25.4 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCA"
+			(at 241.3 25.4 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6ef1d36-76cb-41d3-92a7-5da58fc9e94f")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:C")
+		(at 76.2 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7e073")
+		(property "Reference" "C39"
+			(at 77.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 77.47 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SM0603_Capa"
+			(at 76.2 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General"
+			(at 76.2 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "X5R, +/-20%, 6.3V"
+			(at 76.2 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1823add2-32eb-4f84-906f-151bc32ef700")
+		)
+		(pin "1"
+			(uuid "fefb061b-515d-4231-9a03-1371bcfa6f48")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:C")
+		(at 46.99 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7e08b")
+		(property "Reference" "C36"
+			(at 48.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 48.26 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SM0603_Capa"
+			(at 46.99 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17afaaf2-d594-47b1-87fd-25475b227ee8")
+		)
+		(pin "2"
+			(uuid "a608a527-8b64-42f9-b82a-259181dbbfde")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:R")
+		(at 54.61 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7e145")
+		(property "Reference" "R24"
+			(at 52.578 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.2k"
+			(at 54.61 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM0603"
+			(at 54.61 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General"
+			(at 54.61 102.87 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "+/-1%, 0.125W, 50V"
+			(at 54.61 102.87 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d55f9b5-0ee4-47e8-b5d7-16e09c2ea9b0")
+		)
+		(pin "2"
+			(uuid "9fde0aef-f3c1-4c36-bc38-6654ea2a854b")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:R")
+		(at 64.77 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7e166")
+		(property "Reference" "R26"
+			(at 62.738 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.2K"
+			(at 64.77 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM0603"
+			(at 64.77 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92e434bd-1470-4276-b8ad-2959f00091cf")
+		)
+		(pin "2"
+			(uuid "813a4a3b-ce3d-4edd-b4ed-bb4476a4adcb")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:GND")
+		(at 151.13 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7e1f3")
+		(property "Reference" "#PWR072"
+			(at 151.13 114.3 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 116.078 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f754c166-3173-4c45-be34-29356a9224cf")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:R")
+		(at 69.85 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de7e2e1")
+		(property "Reference" "R27"
+			(at 67.818 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 69.85 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM0603"
+			(at 69.85 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Genaral"
+			(at 69.85 102.87 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "+/-1%, 0.125W, 50V"
+			(at 69.85 102.87 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4701383-2384-470d-a321-de52a47113f6")
+		)
+		(pin "2"
+			(uuid "038fcc2e-1977-497f-a2b3-c9dd72cfd197")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:R")
+		(at 161.29 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de8c98e")
+		(property "Reference" "R30"
+			(at 159.258 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k"
+			(at 161.29 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM0603"
+			(at 161.29 140.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f843761e-734f-48c9-a75c-ba9e535f2f28")
+		)
+		(pin "1"
+			(uuid "1fe8558e-0e2d-4713-ad0e-04f499988ece")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:R")
+		(at 161.29 172.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de8c993")
+		(property "Reference" "R32"
+			(at 159.258 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 161.29 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM0603"
+			(at 161.29 172.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ee32f1e-93fb-46aa-8886-f1b8e883762d")
+		)
+		(pin "2"
+			(uuid "54b216c0-22a4-44b2-8cc9-252f03f8b08b")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:GND")
+		(at 161.29 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de8c999")
+		(property "Reference" "#PWR071"
+			(at 161.29 184.15 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 185.928 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09dfd24b-8f78-4ff3-9872-0dd95270bc54")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:C")
+		(at 168.91 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de8c9a8")
+		(property "Reference" "C41"
+			(at 170.18 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 170.18 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SM0603_Capa"
+			(at 168.91 171.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0baac0d-149c-458b-a6ff-51bc2816755c")
+		)
+		(pin "2"
+			(uuid "d48a842b-c39f-4525-8279-523aa56364d6")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:VCOM")
+		(at 130.81 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004de8ca38")
+		(property "Reference" "#PWR53"
+			(at 130.81 40.64 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCOM"
+			(at 130.81 41.91 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1213d10-32e0-429b-bb40-a573516a7b46")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "#PWR53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:C")
+		(at 121.92 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004dea5f6d")
+		(property "Reference" "C34"
+			(at 123.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 123.19 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SM0603_Capa"
+			(at 121.92 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General"
+			(at 121.92 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "X7R, +/-10% 6.3V"
+			(at 121.92 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d8744b3-f7e7-4ce4-8270-b3c39606b92e")
+		)
+		(pin "2"
+			(uuid "59b5511f-db5b-41f3-8004-751e0d05a09f")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:MAX16054")
+		(at 88.9 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004defa8e4")
+		(property "Reference" "U10"
+			(at 83.82 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MAX16054"
+			(at 88.9 176.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SOT23_6"
+			(at 88.9 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Maxim"
+			(at 88.9 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "MAX16054AZT"
+			(at 88.9 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "36bd7f9d-be56-4dbf-bc13-15ce798cae13")
+		)
+		(pin "6"
+			(uuid "cacc2c34-073c-4993-a95b-214601482039")
+		)
+		(pin "1"
+			(uuid "62c06e50-0c11-482a-9951-a53e52a0f32a")
+		)
+		(pin "3"
+			(uuid "1dd1904b-a8d6-467a-8119-b266250eb6e4")
+		)
+		(pin "4"
+			(uuid "937599a8-ab8f-4e6c-83de-1eec436ac33f")
+		)
+		(pin "5"
+			(uuid "94a0068c-e37c-4518-8a05-173ae2321c45")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:+BATT")
+		(at 67.31 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004defa914")
+		(property "Reference" "#PWR070"
+			(at 67.31 172.72 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 67.31 168.91 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "813d560a-58bd-4655-8824-f884d410bbae")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:GND")
+		(at 116.84 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004defa927")
+		(property "Reference" "#PWR069"
+			(at 116.84 179.07 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 180.848 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52e63f35-2bc4-45ab-a068-755a60102824")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:SW_PUSH")
+		(at 60.96 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004defa9a9")
+		(property "Reference" "SW1"
+			(at 64.77 157.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PUSH ON/OFF"
+			(at 60.96 160.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SPST-NO-4x2.5"
+			(at 60.96 160.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron"
+			(at 60.96 160.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "B3U-3000P"
+			(at 60.96 160.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfa4f8cb-21de-4167-9cd7-5e85e1fcdcd0")
+		)
+		(pin "2"
+			(uuid "05a3add3-b133-4786-8860-1bde9d4c803f")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:GND")
+		(at 44.45 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004defa9bf")
+		(property "Reference" "#PWR068"
+			(at 44.45 162.56 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 164.338 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cff1791f-6886-442f-a6f1-dae6fe63ecc3")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:R")
+		(at 264.16 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004defaa5f")
+		(property "Reference" "R22"
+			(at 262.128 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 264.16 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM0603"
+			(at 264.16 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General"
+			(at 264.16 92.71 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "+/-1%, 0.125W, 50V"
+			(at 264.16 92.71 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfa28c1f-485d-418e-ab73-10c3a735f77d")
+		)
+		(pin "2"
+			(uuid "5ece32cc-a7d1-43f3-b277-3c8f2068fe8d")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:LED")
+		(at 264.16 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004defaa71")
+		(property "Reference" "D7"
+			(at 266.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLUE LED"
+			(at 264.16 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMDLED-0603"
+			(at 264.16 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General"
+			(at 264.16 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "Blue, If:20mA"
+			(at 264.16 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96d25e06-aebd-4cba-8787-e44d64727ac2")
+		)
+		(pin "1"
+			(uuid "cf7b7481-c8a4-4f62-8a83-14eb6d2ac656")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:DGND")
+		(at 264.16 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004defaaba")
+		(property "Reference" "#PWR067"
+			(at 264.16 115.57 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 264.16 117.348 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8ee7d3a-0dbc-4d7e-b3ac-b51b387abd26")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:R")
+		(at 58.42 176.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004defb1b3")
+		(property "Reference" "R31"
+			(at 56.388 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 58.42 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM0603"
+			(at 58.42 176.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General"
+			(at 58.42 176.53 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "+/-1%, 0.125W, 50V"
+			(at 58.42 176.53 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aefdb5bc-5afb-41c0-9d02-4b414fdd76fb")
+		)
+		(pin "1"
+			(uuid "ff849443-9eef-4d50-aba5-0ce995178691")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:GND")
+		(at 58.42 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004defb1c9")
+		(property "Reference" "#PWR066"
+			(at 58.42 185.42 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 187.198 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72f711c4-66de-4d5d-827e-149e4dbc90ca")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:BATTERY")
+		(at 215.9 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004defb5af")
+		(property "Reference" "BT1"
+			(at 215.9 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BATTERY"
+			(at 215.9 156.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "JST-B2B-ZR"
+			(at 215.9 156.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST"
+			(at 215.9 156.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "B2B-ZR"
+			(at 215.9 156.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a2bbdef-b032-4c34-af19-a48621fd9700")
+		)
+		(pin "2"
+			(uuid "8de32378-9721-49c3-b053-9804239739de")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:+BATT")
+		(at 205.74 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004defb5d0")
+		(property "Reference" "#PWR065"
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 205.74 148.59 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c985a693-0e40-4f6c-b5d6-39f4446c3dc3")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:GND")
+		(at 226.06 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004defb5db")
+		(property "Reference" "#PWR064"
+			(at 226.06 158.75 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 160.528 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d9bb5b1-dd61-4fb5-9c94-e68c0eb51c5e")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:VCOM")
+		(at 143.51 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004defb6b3")
+		(property "Reference" "#PWR72"
+			(at 143.51 146.05 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCOM"
+			(at 143.51 147.32 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2ffdea3-eefa-4e79-8f4f-78f2c54bc3c0")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "#PWR72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:R")
+		(at 219.71 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004defe906")
+		(property "Reference" "R20"
+			(at 217.678 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "42.2k"
+			(at 219.71 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM0603"
+			(at 219.71 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General"
+			(at 219.71 91.44 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "+/-1%, 0.125W, 50V"
+			(at 219.71 91.44 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bbaeaad6-58cb-4664-aeb8-2c7ff6e8f24c")
+		)
+		(pin "1"
+			(uuid "0c9f45f7-1233-4b16-986a-7407e37040e2")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:R")
+		(at 219.71 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004defe911")
+		(property "Reference" "R28"
+			(at 217.678 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "30k"
+			(at 219.71 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM0603"
+			(at 219.71 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc2cfba7-a2ee-443f-a8bd-12fa39012ef2")
+		)
+		(pin "1"
+			(uuid "1e5fba39-560f-4cdf-b4e4-c0245f2cd780")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:R")
+		(at 234.95 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004defe97e")
+		(property "Reference" "R23"
+			(at 234.95 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150k"
+			(at 234.95 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM0603"
+			(at 234.95 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General"
+			(at 234.95 99.06 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "+/-1%, 0.125W, 50V"
+			(at 234.95 99.06 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2804a6a-310c-4868-aeec-9b594099917a")
+		)
+		(pin "1"
+			(uuid "4317b435-b6da-42fc-b60d-ef5fae7e2ddb")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:C")
+		(at 226.06 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004df114a5")
+		(property "Reference" "C35"
+			(at 227.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15pF"
+			(at 227.33 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SM0603_Capa"
+			(at 226.06 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f248cb7d-8c3e-4210-95e7-c52486d29732")
+		)
+		(pin "1"
+			(uuid "ded1a673-d79b-44cb-9cb1-2e12110123e0")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:R")
+		(at 219.71 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004df1151d")
+		(property "Reference" "R18"
+			(at 217.678 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "30k"
+			(at 219.71 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM0603"
+			(at 219.71 59.69 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General"
+			(at 219.71 59.69 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "+/-1%, 0.125W, 50V"
+			(at 219.71 59.69 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ce0cde7-2a87-40e4-99d7-5efef4739e14")
+		)
+		(pin "1"
+			(uuid "616ac509-3e47-4640-aff1-056ce2745e91")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:R")
+		(at 219.71 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004df1151e")
+		(property "Reference" "R16"
+			(at 217.678 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "39k"
+			(at 219.71 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM0603"
+			(at 219.71 41.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General"
+			(at 219.71 41.91 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "+/-1%, 0.125W, 50V"
+			(at 219.71 41.91 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "41640225-ee5c-4de5-a384-ae3513ed4198")
+		)
+		(pin "1"
+			(uuid "188f35f7-ae65-4a18-917b-76e17bda6924")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:C")
+		(at 226.06 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004df115c1")
+		(property "Reference" "C29"
+			(at 227.33 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15pF"
+			(at 227.33 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SM0603_Capa"
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30e4af8e-de3d-4b18-853c-9f3d6f04b4fd")
+		)
+		(pin "1"
+			(uuid "81ea3b9d-20b9-4d04-be5b-9a117f9e9d93")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:TPS79301")
+		(at 193.04 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004df1187b")
+		(property "Reference" "U7"
+			(at 187.96 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TPS79301"
+			(at 191.77 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SOT23_6"
+			(at 193.04 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2da85c5-0986-4a3d-bf2a-0e9d94a5a250")
+		)
+		(pin "1"
+			(uuid "9c834a52-abae-4e52-8a20-c5d589cc2038")
+		)
+		(pin "3"
+			(uuid "adc7bfb1-5598-4557-84e7-eaa2abbef901")
+		)
+		(pin "6"
+			(uuid "9d75b662-53a2-414d-99a7-ec88a9c892c8")
+		)
+		(pin "5"
+			(uuid "bbc880a3-5eeb-4ff0-bd5a-d14950270306")
+		)
+		(pin "4"
+			(uuid "74e976b6-5416-47db-b39d-fce015eaa6b1")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:TPS79301")
+		(at 193.04 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004df11880")
+		(property "Reference" "U9"
+			(at 187.96 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TPS79301"
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SOT23_6"
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TI"
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "TPS79301DBVR"
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d8ad338-0d60-4ab9-920c-40d3a58f3d1a")
+		)
+		(pin "4"
+			(uuid "103b9bd6-438f-4eb1-a195-b8be38198ca5")
+		)
+		(pin "2"
+			(uuid "6ad502c5-fe70-407a-9872-1f4de70a9f5c")
+		)
+		(pin "6"
+			(uuid "14c36821-f238-405e-853d-f2890eca744c")
+		)
+		(pin "5"
+			(uuid "40256d14-8dd1-467f-b12f-96e2c7e81d2f")
+		)
+		(pin "3"
+			(uuid "527403cb-2d5e-4f49-9774-716b651bbdf8")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:BQ24075")
+		(at 107.95 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004df65e58")
+		(property "Reference" "U8"
+			(at 97.79 77.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "BQ24075"
+			(at 101.6 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "QFN16"
+			(at 107.95 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TI"
+			(at 107.95 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "BQ24075RGTT"
+			(at 107.95 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0073f72f-b4d0-465e-bff0-cf0ebdd0ea48")
+		)
+		(pin "10"
+			(uuid "bf5923ac-d32f-4808-a43e-7c9a3fc4535c")
+		)
+		(pin "12"
+			(uuid "8fffde3e-6cdd-4674-b890-e192857c63c6")
+		)
+		(pin "15"
+			(uuid "aab74583-f90a-4928-8c05-85a0b2fae2ef")
+		)
+		(pin "17"
+			(uuid "eac731c3-11b7-4c00-aa9e-2f2a50279a30")
+		)
+		(pin "2"
+			(uuid "2c06ef54-5244-4734-baba-54a997afb0b0")
+		)
+		(pin "16"
+			(uuid "afeb0fd4-9030-45ad-b3fe-87a5625a7c24")
+		)
+		(pin "11"
+			(uuid "8d117ca0-d49c-48a8-9296-d9db677db2d7")
+		)
+		(pin "14"
+			(uuid "6e199aba-53c6-40c0-a98b-7726786ce6cb")
+		)
+		(pin "3"
+			(uuid "cc18f7eb-1682-4982-bc57-1ae6c0151412")
+		)
+		(pin "4"
+			(uuid "0a511179-18a7-4418-9351-3c01983a8411")
+		)
+		(pin "5"
+			(uuid "8a3a1c75-6dd6-4a8d-8d00-92a8ad8861e1")
+		)
+		(pin "6"
+			(uuid "e7d04cf0-45bf-4844-bab9-08d369d461e6")
+		)
+		(pin "13"
+			(uuid "a268e5a7-952b-45cf-9271-70f9a10e0cc8")
+		)
+		(pin "7"
+			(uuid "0a0bb1e8-d865-45c5-9442-058278248652")
+		)
+		(pin "8"
+			(uuid "02b727fb-4aa9-4af6-84d3-ffa2c5031a2f")
+		)
+		(pin "9"
+			(uuid "43bdebac-4b38-49b8-99ae-8c668f4e309f")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:R")
+		(at 243.84 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004df902e0")
+		(property "Reference" "R21"
+			(at 241.808 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300k"
+			(at 243.84 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM0603"
+			(at 243.84 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General"
+			(at 243.84 91.44 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "+/-1%, 0.125W, 50V"
+			(at 243.84 91.44 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f07b20bb-ff14-418f-8d1f-3968bbfd7e97")
+		)
+		(pin "2"
+			(uuid "8af6ef7b-1538-48bd-8da3-a00bee747cbd")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:R")
+		(at 191.77 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004e286282")
+		(property "Reference" "R19"
+			(at 191.77 64.262 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 191.77 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM0603"
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e917ba49-bf5f-4aee-b7b1-64f0980fefa8")
+		)
+		(pin "2"
+			(uuid "465091b4-ed71-40b6-acae-477750c9cfcc")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:R")
+		(at 193.04 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004e2862c3")
+		(property "Reference" "R29"
+			(at 193.04 113.792 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 193.04 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM0603"
+			(at 193.04 111.76 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General"
+			(at 193.04 111.76 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "+/-1%, 0.125W, 50V"
+			(at 193.04 111.76 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6690c03a-8f77-4575-8e00-8487370ddd1a")
+		)
+		(pin "1"
+			(uuid "dbdad22d-216d-477a-8a42-c9f59f47544a")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:GND")
+		(at 54.61 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004e39a68c")
+		(property "Reference" "#PWR063"
+			(at 54.61 120.65 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 122.428 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81633334-aeda-479f-90c5-39262b52b57c")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:DGND")
+		(at 39.37 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004e39a698")
+		(property "Reference" "#PWR062"
+			(at 39.37 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 39.37 121.158 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9a41adf-29b7-4889-9bac-a4003cc3cee8")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:C")
+		(at 113.03 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004e591ff3")
+		(property "Reference" "C33"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 114.3 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SM0603_Capa"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "X7R, +/-10%, 25V"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0892639-bfff-40f2-b5d7-4c05fbcf63e9")
+		)
+		(pin "1"
+			(uuid "19679bf8-2309-497e-b76a-806f59e0e5f2")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:R")
+		(at 59.69 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004e7767e3")
+		(property "Reference" "R25"
+			(at 57.658 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 59.69 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM0603"
+			(at 59.69 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9313c73c-5a16-405f-8f99-020851faa0e1")
+		)
+		(pin "2"
+			(uuid "4e7271db-9624-4b49-91b6-532f2c55188f")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:R")
+		(at 135.89 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004e99bd94")
+		(property "Reference" "R33"
+			(at 133.858 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 135.89 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM0603"
+			(at 135.89 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Genaral"
+			(at 135.89 138.43 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "+/-1%, 0.125W, 50V"
+			(at 135.89 138.43 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "11cc777a-f8fa-4735-8389-c0c6c54fa999")
+		)
+		(pin "1"
+			(uuid "f8181fc0-7ded-4a63-88a4-d2324daf477c")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:CONN_2")
+		(at 26.67 102.87 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004ee12c03")
+		(property "Reference" "P8"
+			(at 27.94 102.87 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "CONN_2"
+			(at 25.4 102.87 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "PINHEADER_127_2X1"
+			(at 22.86 102.87 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad3c4fca-e8b3-41b1-bf6a-f8bff7d4207d")
+		)
+		(pin "2"
+			(uuid "1db2eaa4-aa81-4b87-93c6-3586f3961544")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "P8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:CONN_1")
+		(at 233.68 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004ee1369c")
+		(property "Reference" "P9"
+			(at 235.712 156.21 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CONN_1"
+			(at 233.68 154.813 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PINHEADER_127_1X1"
+			(at 233.68 152.273 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "651d88ef-927e-4556-b87c-ed7f4bb63dd7")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "P9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:MOSFET_N")
+		(at 158.75 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004ee4c358")
+		(property "Reference" "Q5"
+			(at 158.75 151.13 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 160.02 161.29 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SOT23GDS"
+			(at 158.75 156.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General"
+			(at 158.75 156.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "2N7002"
+			(at 158.75 156.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "a3472a8c-e11e-4e62-99c8-fef266ae310f")
+		)
+		(pin "D"
+			(uuid "f3a0f581-a1ae-4222-89eb-1c50bd0a1b89")
+		)
+		(pin "G"
+			(uuid "39fa6558-ad93-4bf2-bc64-8a3aee636175")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:R")
+		(at 143.51 172.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004ee4c3fb")
+		(property "Reference" "R36"
+			(at 141.478 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 143.51 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM0603"
+			(at 143.51 172.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Genaral"
+			(at 143.51 172.72 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "+/-1%, 0.125W, 50V"
+			(at 143.51 172.72 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32c6b96d-2e7a-4b7f-845f-998b6970a519")
+		)
+		(pin "1"
+			(uuid "53ce7ba4-011e-43b5-852e-f84f990e4ff7")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:+BATT")
+		(at 161.29 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004ee4c450")
+		(property "Reference" "#PWR061"
+			(at 161.29 133.35 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 161.29 129.54 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd9a836d-f85b-40c1-9aba-d566880077c9")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:MOSFET_N")
+		(at 124.46 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004ee5b71b")
+		(property "Reference" "Q6"
+			(at 124.46 132.08 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 125.73 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SOT23GDS"
+			(at 124.46 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General"
+			(at 124.46 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "2N7002"
+			(at 124.46 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "00baf97e-214c-4c02-891d-c3125af17318")
+		)
+		(pin "G"
+			(uuid "9b7d7fa7-db59-4c97-bacd-b7e6d0eec07e")
+		)
+		(pin "D"
+			(uuid "e77dccf2-488d-452b-bd72-ceb612c7ca79")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:GND")
+		(at 127 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004ee5b76d")
+		(property "Reference" "#PWR060"
+			(at 127 157.48 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 159.258 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82800915-b8a7-4352-b568-9eb4e5d07eae")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:R")
+		(at 111.76 146.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004ee5b779")
+		(property "Reference" "R37"
+			(at 109.728 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 111.76 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM0603"
+			(at 111.76 146.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Genaral"
+			(at 111.76 146.05 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "+/-1%, 0.125W, 50V"
+			(at 111.76 146.05 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "364ebc01-4468-494c-aaba-abe7ace49406")
+		)
+		(pin "1"
+			(uuid "dc346746-9d5d-4bfe-9af2-1bce1fb539be")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:R")
+		(at 270.51 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004ee66f1c")
+		(property "Reference" "R38"
+			(at 268.478 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 270.51 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM0603"
+			(at 270.51 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General"
+			(at 270.51 92.71 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "+/-1%, 0.125W, 50V"
+			(at 270.51 92.71 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d760e4e3-4cfa-4550-bcf7-058db9352c6a")
+		)
+		(pin "2"
+			(uuid "8785529d-9001-4b4f-b0c5-f08c0047c55e")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:LED")
+		(at 270.51 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004ee66f20")
+		(property "Reference" "D8"
+			(at 273.05 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLUE LED"
+			(at 270.51 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMDLED-0603"
+			(at 270.51 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General"
+			(at 270.51 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "Blue, If:20mA"
+			(at 270.51 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "063249a5-d584-47e3-8b5e-6d79733d6506")
+		)
+		(pin "2"
+			(uuid "58d03cc6-b511-4920-b370-88113bdae600")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:DGND")
+		(at 265.43 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004f69c591")
+		(property "Reference" "#PWR059"
+			(at 265.43 168.91 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 265.43 170.688 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88948533-6e86-41d7-a4dd-f2f6a1b35507")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:PWR_FLAG")
+		(at 265.43 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004f69c594")
+		(property "Reference" "#FLG058"
+			(at 265.43 156.972 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 265.43 157.988 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fdd7fad-701e-4fac-89af-d7ddd3e85036")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "#FLG058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:AGND")
+		(at 273.05 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004f69c5ad")
+		(property "Reference" "#PWR057"
+			(at 273.05 168.91 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 273.05 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3d58583-d84b-4056-a1c1-6961f4a272e2")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:PWR_FLAG")
+		(at 273.05 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004f69c5b1")
+		(property "Reference" "#FLG056"
+			(at 273.05 156.972 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 273.05 157.988 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39ed542d-bcae-46e2-8996-89b2e8d4128a")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "#FLG056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:GND")
+		(at 257.81 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004f69c5cd")
+		(property "Reference" "#PWR055"
+			(at 257.81 168.91 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 170.688 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dbc7476-f758-4738-945e-19dd87303957")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:PWR_FLAG")
+		(at 257.81 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004f69c5d9")
+		(property "Reference" "#FLG054"
+			(at 257.81 156.972 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 257.81 157.988 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c311e77-8e62-4680-8e00-37e79ff799d7")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "#FLG054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:+BATT")
+		(at 265.43 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004f69c5ed")
+		(property "Reference" "#PWR053"
+			(at 265.43 146.05 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 265.43 142.24 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be36de64-5eff-4e64-a670-0e874467db60")
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:PWR_FLAG")
+		(at 265.43 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004f69c616")
+		(property "Reference" "#FLG052"
+			(at 265.43 155.448 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 265.43 154.432 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3babd67-a616-41da-908d-44e86ed27ddc")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "#FLG052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:PWR_FLAG")
+		(at 171.45 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004f6ca0c6")
+		(property "Reference" "#FLG051"
+			(at 171.45 38.862 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 171.45 39.878 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9822ced6-35c7-4615-803e-10bebbbe1919")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3b24671b-aa14-4e73-ba93-26bbbcad135b/00000000-0000-0000-0000-00004de77332"
+					(reference "#FLG051")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
